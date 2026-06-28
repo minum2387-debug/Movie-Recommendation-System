@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sklearn.feature_extraction.text import CountVectorizer
+import sklearn as sk
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load dataset
